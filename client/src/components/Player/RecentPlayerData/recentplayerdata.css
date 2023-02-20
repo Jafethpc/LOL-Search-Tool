@@ -1,0 +1,47 @@
+.recent-player-data-section {
+  position: relative;
+  width: 730px;
+  height: 250px;
+}
+
+.border-background {
+  position: absolute;
+  width: 730px;
+  height: 250px;
+}
+.recent-player-data {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: absolute;
+  width: 730px;
+  height: 250px;
+  padding: 1.5px 4px;
+}
+
+.left-recent-player-data {
+  width: 60%;
+  height: 250px;
+}
+.right-recent-player-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  padding-right: 4px;
+  height: 247px;
+}
+
+.champion-section {
+  height: 100%;
+}
+
+.kda-winrate-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-left: 5%;
+  height: 45%;
+  width: 95%;
+}

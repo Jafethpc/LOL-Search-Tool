@@ -1,0 +1,40 @@
+.showmore-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 730px;
+  height: 45px;
+  background-color: none;
+  border: none;
+  border-color: none;
+  margin: 30px 0;
+  cursor: pointer;
+    
+}
+
+.showmore-text {
+  position: absolute;
+    font-family: Beaufurt;
+    font-size: 17px;
+    color: rgb(214, 198, 150);
+    transition: color 0.2s;
+    z-index: 5;
+}
+
+.showmore-button:hover .showmore-text {
+    color: rgb(238, 228, 200)
+}
+
+.showmore-image-border {
+  position: absolute;
+  width: 730px;
+  height: 45px;
+}
+
+.showmore-image-border-active {
+    width: 730px;
+  height: 45px;
+position: absolute;
+}

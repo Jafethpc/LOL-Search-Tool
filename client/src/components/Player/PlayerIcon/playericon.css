@@ -1,0 +1,59 @@
+@font-face {
+  font-family: Beaufurt;
+  src: url(../../../Fonts/beaufortforlol-bold.otf);
+}
+
+.profile-Icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 400px;
+}
+.champion-border {
+  display: flex;
+  position: absolute;
+  z-index: 3;
+  height: 400px;
+}
+.champion-splash-art {
+  position: absolute;
+  height: 350px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  margin-top: 53px;
+}
+.profile-icon {
+  position: absolute;
+  height: 80px;
+  border-radius: 500px;
+  margin-top: 295px;
+}
+.player-images {
+  display: flex;
+  justify-content: center;
+  height: 500px;
+}
+.player-name,
+.player-level {
+  font-family: Beaufurt;
+  margin: 0;
+  z-index: 3;
+}
+
+.player-information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 380px;
+}
+
+.player-name {
+  font-size: 17px;
+}
+
+.player-level {
+  color: rgb(197, 166, 106);
+  margin-top: 10px;
+  font-size: 13px;
+}

@@ -1,0 +1,29 @@
+.winrate-stats-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+  height: 80px;
+  padding: 0 20px;
+}
+.games-wins-losses {
+  font-family: Roboto;
+  font-size: 13px;
+}
+.game-winrate-progress {
+  position: absolute;
+  background-color: rgb(83, 90, 231);
+  height: 20px;
+}
+.game-winrate-progress-bar {
+  position: relative;
+  width: 100%;
+  height: 20px;
+  background-color: rgb(190, 42, 42);
+  margin: 10px 0;
+}
+.game-winrate {
+  font-family: Roboto;
+  font-size: 13px;
+}

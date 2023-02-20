@@ -1,0 +1,23 @@
+.kda {
+  font-family: Beaufurt;
+  font-size: 40px;
+}
+.kda-stats-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 40%;
+}
+.kills-deaths-assists {
+  font-family: Roboto;
+  font-size: 13px;
+}
+.kill-participation {
+  font-family: Roboto;
+  font-size: 13px;
+  color: rgb(225, 56, 56);
+}
+.kills-deaths-assists .deaths {
+  color: rgb(225, 56, 56);
+}
