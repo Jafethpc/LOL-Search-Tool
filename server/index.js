@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+require("dotenv").config();
+>>>>>>> master
 const express = require("express");
 const cors = require("cors");
 const mysql = require("mysql");
@@ -7,7 +11,16 @@ app.use(express.urlencoded({ limit: "100mb", extended: "true" }));
 app.use(express.json({ limit: "100mb" }));
 app.use(cors());
 
+<<<<<<< HEAD
 const con = mysql.createConnection({});
+=======
+const con = mysql.createConnection({
+  host: process.env.DB_HOST,
+  user: process.env.DB_USER,
+  password: process.env.DB_PASSWORD,
+  database: process.env.DB_NAME,
+});
+>>>>>>> master
 
 con.connect(function (err) {
   if (err) throw err;
@@ -57,8 +70,11 @@ app.post("/addPlayer", (req, res) => {
   );
 });
 
+<<<<<<< HEAD
 app.get("/player", (req, res) => {});
 
+=======
+>>>>>>> master
 app.post("/updatePlayer", (req, res) => {
   let fullPlayerData = req.body;
   con.query(
@@ -77,6 +93,7 @@ app.post("/updatePlayer", (req, res) => {
 app.listen(5000, () => {
   console.log("Server started on port 5000");
 });
+<<<<<<< HEAD
 
 //  con.query(
 //    "UPDATE player SET playerData = '" +
@@ -89,3 +106,5 @@ app.listen(5000, () => {
 //      console.log("data sent!" + result);
 //    }
 //  );
+=======
+>>>>>>> master

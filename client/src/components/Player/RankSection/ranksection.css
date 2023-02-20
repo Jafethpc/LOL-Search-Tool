@@ -1,0 +1,89 @@
+@font-face {
+  font-family: Beaufurt;
+  src: url(../../../Fonts/beaufortforlol-bold.otf);
+}
+@font-face {
+  font-family: Roboto;
+  src: url(../../../Fonts/Roboto-Regular.ttf);
+}
+
+.queuetype {
+  margin: 0;
+  font-family: Beaufurt;
+  color: rgb(200, 186, 142);
+  font-size: 15px;
+  margin-bottom: -2px;
+}
+.rank-section {
+  display: flex;
+  flex-direction: column;
+  width: 290px;
+  height: auto;
+}
+.rank-border-top,
+.rank-border-bottom {
+  width: 290px;
+  height: auto;
+}
+.rank-border-bottom {
+  margin-bottom: 5px;
+}
+.rank-emblem {
+  display: flex;
+  justify-content: center;
+  width: 25%;
+}
+.rank-emblem-img {
+  width: 70px;
+  height: 70px;
+    object-fit: contain;
+}
+
+.rank-section-data {
+  display: flex;
+  flex-direction: row;
+}
+
+.rank-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 75%;
+  padding-left: 4%;
+}
+
+.rank-data-top,
+.rank-data-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rank-title {
+  font-family: Beaufurt;
+  font-size: 16px;
+}
+
+.win-lose-ratio,
+.league-points,
+.winrate {
+  font-family: Roboto;
+  font-size: 11.4px;
+  color: rgb(197, 197, 197);
+}
+
+.unranked-section {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  width: 100%;
+  height: 75px;
+   margin-left: 4%;
+}
+.unranked {
+    font-family: Beaufurt;
+    font-size: 22px;
+    margin-left: 2%;
+    /* margin-right: 20px; */
+}

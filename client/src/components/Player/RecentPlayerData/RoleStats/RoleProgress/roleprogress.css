@@ -1,0 +1,26 @@
+.role-img {
+  height: 20%;
+}
+.role-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 20%;
+  padding-bottom: 18px;
+}
+.progress-bar {
+  display: flex;
+  position: relative;
+  height: 70%;
+  width: 17px;
+  background-color: rgb(75, 75, 75);
+}
+
+.bar-percentage {
+  position: absolute;
+  bottom: 0;
+  width: 17px;
+  height: 90%;
+  background-color: rgb(199, 199, 199);
+}

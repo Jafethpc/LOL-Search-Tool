@@ -1,0 +1,6 @@
+.role-data-section {
+  display: flex;
+  flex-direction: row;
+  height: 55%;
+  width: 100%;
+}

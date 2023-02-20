@@ -1,0 +1,62 @@
+.champion-stats-section {
+  position: relative;
+  width: 97%;
+  overflow: hidden;
+}
+
+.champion-data-image {
+  position: absolute;
+  height: 100%;
+  object-position: 50% 12%;
+  object-fit: cover;
+  width: 100%;
+  transform: scale(1.2);
+  filter: brightness(65%);
+}
+
+.champion-stats-data-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.champion-stats-data-section .top-section,
+.champion-stats-data-section .bottom-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.champion-stats-data-section .champion-name {
+  font-family: Beaufurt;
+  font-size: 25px;
+  padding-left: 7px;
+  padding-top: 4px;
+}
+
+.champion-stats-data-section .kda,
+.champion-stats-data-section .cs,
+.champion-stats-data-section .winrate {
+  font-family: Roboto;
+  font-size: 11.4px;
+  color: rgb(221, 221, 221);
+}
+
+.champion-stats-data-section .kda,
+.champion-stats-data-section .winrate {
+  padding-right: 7px;
+}
+
+.champion-stats-data-section .winrate,
+.champion-stats-data-section .cs {
+  padding-bottom: 4px;
+}
+
+.champion-stats-data-section .cs {
+  padding-left: 7px;
+}
